@@ -90,31 +90,10 @@ hr {
   display: flex;
   gap: 10px;
 }
-.social .links a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 35px;
-  width: 35px;
-  background: #1f784c;
-  color: #fff;
-  border: none;
-  outline: none;
-  border-radius: 50%;
-  text-decoration: none;
-}
 .social .links a i {
   font-size: 16px;
 }
-.social button {
-  padding: 4px 10px;
-  border: none;
-  outline: none;
-  border-radius: 4px;
-  background: #6c757d;
-  color: #fff;
-}
-.social button:nth-child(1) {
+.social .edit button:nth-child(1) {
   background: #0069d9;
 }
 
