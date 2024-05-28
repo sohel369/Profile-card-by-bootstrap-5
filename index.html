@@ -58,7 +58,7 @@
                             <div class="btn-group">
                                 <button class="btn bg-primary text-light" data-bs-toggle="tooltip" title="Edit"><i
                                         class="fa-solid fa-pen-to-square"></i></button>
-                                <button class="btn bg-secondary text-light" data-bs-toggle="tooltip" title="Exit"><i
+                                <button class="btn bg-secondary text-light" id="crossButton"  data-bs-toggle="tooltip" title="Exit"><i
                                         class="fa-solid fa-xmark"></i></button>
                             </div>
                         </div>
@@ -98,7 +98,7 @@
                             <div class="btn-group">
                                 <button class="btn bg-primary text-light" data-bs-toggle="tooltip" title="Edit"><i
                                         class="fa-solid fa-pen-to-square"></i></button>
-                                <button class="btn bg-secondary text-light" data-bs-toggle="tooltip" title="Exit"><i
+                                <button class="btn bg-secondary text-light" id="crossButton"  data-bs-toggle="tooltip" title="Exit"><i
                                         class="fa-solid fa-xmark"></i></button>
                             </div>
                         </div>
@@ -138,7 +138,7 @@
                             <div class="btn-group">
                                 <button class="btn bg-primary text-light" data-bs-toggle="tooltip" title="Edit"><i
                                         class="fa-solid fa-pen-to-square"></i></button>
-                                <button class="btn bg-secondary text-light" data-bs-toggle="tooltip" title="Exit"><i
+                                <button class="btn bg-secondary text-light" id="crossButton"  data-bs-toggle="tooltip" title="Exit"><i
                                         class="fa-solid fa-xmark"></i></button>
                             </div>
                         </div>
@@ -178,7 +178,7 @@
                             <div class="btn-group">
                                 <button class="btn bg-primary text-light" data-bs-toggle="tooltip" title="Edit"><i
                                         class="fa-solid fa-pen-to-square"></i></button>
-                                <button class="btn bg-secondary text-light" data-bs-toggle="tooltip" title="Exit"><i
+                                <button class="btn bg-secondary text-light" id="crossButton" data-bs-toggle="tooltip" title="Exit"><i
                                         class="fa-solid fa-xmark"></i></button>
                             </div>
                         </div>
@@ -204,6 +204,13 @@
         var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
         var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
             return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+
+    <script>
+        document.querySelectorAll("#crossButton").addEventListener("click",function(Element){
+            Element.closest(".col-lg-6").style.display="none"
+
         })
     </script>
 </body>
