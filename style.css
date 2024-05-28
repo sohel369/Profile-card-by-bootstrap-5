@@ -15,23 +15,24 @@ body {
 .col-lg-6 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background: #fff;
-  width: 300px;
-  padding: 20px;
-  height: 400px;
+  width: 250px;
+  height: 360px;
   border-radius: 8px;
   margin-right: 20px;
 }
 
 .teampic img {
-  width: 100px;
-  height: 100px;
   -o-object-fit: cover;
      object-fit: cover;
+  height: 80px;
+  width: 80px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 .member-info {
-  padding-left: 30px;
-  padding-top: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 .member-info h1 {
   font-size: 24px;
@@ -39,18 +40,19 @@ body {
   margin-bottom: 10px;
 }
 .member-info h4 {
-  font-size: 18px;
+  font-size: 14px;
   color: #6c757d;
   margin-bottom: 20px;
 }
 
 .email {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  margin-top: -6px;
+  padding: 0 10px;
 }
 .email i {
-  font-size: 20px;
+  font-size: 16px;
 }
 .email h2 {
   font-size: 16px;
@@ -70,27 +72,32 @@ hr {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: -6px;
+  padding: 0 10px;
 }
 .content_phone h5 {
-  font-size: 20px;
-}
-.content_phone h5 span {
-  letter-spacing: 4px;
+  font-size: 16px;
 }
 .content_phone i {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .social {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 10px;
 }
-.social .links {
+.social .links_add {
   display: flex;
   gap: 10px;
 }
-.social .links a i {
+.social .links_add a {
+  height: 30px;
+  width: 30px;
+  background: #72D5C0;
+}
+.social .links_add a i {
   font-size: 16px;
 }
 .social .edit button:nth-child(1) {
