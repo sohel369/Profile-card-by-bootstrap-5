@@ -15,12 +15,15 @@ body {
 .col-lg-6 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background: #fff;
-  width: 250px;
-  height: 360px;
+  width: 260px;
+  height: 350px;
   border-radius: 8px;
   margin-right: 20px;
 }
 
+.teampic {
+  width: 50%;
+}
 .teampic img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -30,7 +33,16 @@ body {
   margin-top: 20px;
 }
 
+.br_btm {
+  height: 2px;
+  width: 110%;
+  background: #555;
+  margin-left: -5%;
+  margin-bottom: 10px;
+}
+
 .member-info {
+  width: 50%;
   margin-top: 20px;
   margin-left: 20px;
 }
@@ -48,7 +60,6 @@ body {
 .email {
   display: flex;
   justify-content: space-between;
-  margin-top: -6px;
   padding: 0 10px;
 }
 .email i {
@@ -64,16 +75,12 @@ body {
   text-decoration: underline;
 }
 
-hr {
-  width: 100%;
-}
-
 .content_phone {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: -6px;
   padding: 0 10px;
+  margin-bottom: 10px;
 }
 .content_phone h5 {
   font-size: 16px;
